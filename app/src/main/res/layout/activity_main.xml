@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/uploadImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="250dp"
+        android:minHeight="200dp"
+        android:layout_margin="16dp"
+        android:background="@android:color/darker_gray"
+        android:scaleType="centerCrop"
+        />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="upload"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:src="@android:drawable/arrow_up_float"
+        app:backgroundTint="@color/colorAccent"
+        app:elevation="8dp"
+        app:fabSize="normal" />
+
+
+</RelativeLayout>
